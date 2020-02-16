@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.29424.173
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TariffComparisonAPI", "TariffComparisonAPI\TariffComparisonAPI.csproj", "{CBA7F0C4-6529-4F76-B95C-EB2A2F084C03}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TariffComparisonAPI.UnitTest", "TariffComparisonAPI.UnitTest\TariffComparisonAPI.UnitTest.csproj", "{99AB334B-2760-4A45-BDE1-029D6F98FAA0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{CBA7F0C4-6529-4F76-B95C-EB2A2F084C03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBA7F0C4-6529-4F76-B95C-EB2A2F084C03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBA7F0C4-6529-4F76-B95C-EB2A2F084C03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99AB334B-2760-4A45-BDE1-029D6F98FAA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99AB334B-2760-4A45-BDE1-029D6F98FAA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99AB334B-2760-4A45-BDE1-029D6F98FAA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99AB334B-2760-4A45-BDE1-029D6F98FAA0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

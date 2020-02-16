@@ -24,6 +24,14 @@ namespace TariffComparisonAPI.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<IProduct>> GetTariffComparisons(double consumption)
         {
+            _logger.LogDebug($"Calculate tariff comparison with consumption value {consumption}");
+
+            if(consumption <= 0)
+            {
+                _logger.LogError("Consumption value is equal to or smaller than 0");
+                return BadRequest();
+            }
+
             return _tariffComparisonStrategy.ListTariffComparison(consumption).ToList();
         }
     }
